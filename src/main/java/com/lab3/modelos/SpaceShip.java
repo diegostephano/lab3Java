@@ -60,9 +60,9 @@ public class SpaceShip {
 	//0 : izquierda, 1 : derecha
 	public void girar(int direccion) {
 		if (direccion == 0) {
-			this.setOrientacion(orientacion--);
+			this.setOrientacion(orientacion+15);
 		}else {
-			this.setOrientacion(orientacion++);
+			this.setOrientacion(orientacion-15);
 		}
 	}
 	
